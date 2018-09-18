@@ -1,11 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
-function Nav() {
+const NavItem = styled `
+    display: flex;
+    justify-content: space-around;
+`
+
+function Nav(props) {
     return (
-        <div className="Nav">
-            Testing: Nav
-        </div>
+        <NavItem>
+            {props.item}
+        </NavItem>
     )
 }
 

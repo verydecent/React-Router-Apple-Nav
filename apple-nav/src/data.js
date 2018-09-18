@@ -1,5 +1,3 @@
-const tabs = ["Mac", "iPad", "iPhone", "iWatch", "TV", "Music", "Support" ]
+export const tabs = ["Mac", "iPad", "iPhone" ]
 
-const subTabs = []
-
-export default data;
+export const subTabs = []
